@@ -15,9 +15,9 @@
         <span class="ml-4 font-medium text-gray-400 hover:text-white cursor-pointer">Layanan</span>
         <span class="ml-4 font-medium text-gray-400 hover:text-white cursor-pointer">Rekomendasi</span>
         <span class="ml-4 font-medium text-gray-400 hover:text-white cursor-pointer">Kontak</span>
+        <a href="{{ route('about') }}">About</a>
       </div>
-      <button class="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600">Masuk</button>
-    </nav>
+      <button class="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600"><a href="{{ route('login') }}">masuk</a></button>
   </header>
 
   <main class="container mx-auto my-8">
